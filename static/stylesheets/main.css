@@ -1,0 +1,43 @@
+@import url(https://fonts.bunny.net/css?family=jetbrains-mono);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "JetBrains Mono", monospace;
+  overflow-x: hidden;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+div > #query {
+  width: 50%;
+  border: 1px solid #000;
+  padding: 1rem;
+}
+
+div > #info,
+table {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+th {
+  width: 1%;
+  padding: 1rem;
+}
+
+td > img {
+  width: 50px;
+  height: 50px;
+}
